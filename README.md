@@ -26,32 +26,17 @@ Yukarıdaki **"Open in Colab"** butonuna tıklayın
 
 **İki seçenek var:**
 
-#### 🎯 Seçenek A: Manuel Yükleme (Basit)
+####  Seçenek A: Manuel Yükleme (Basit)
 1. Google Colab'da **sol menüden 📁 (Dosyalar)** simgesine tıklayın
-2. **📤 Upload** butonuna tıklayın
+2. ** Upload** butonuna tıklayın
 3. `real_drug_dataset.csv` dosyanızı seçin ve yükleyin
 4. Dosya yüklendikten sonra notebook'u çalıştırın
 
-#### 🎯 Seçenek B: Otomatik İndirme (Önerilen)
-1. Notebook'un **ilk hücresini** aşağıdaki kod ile değiştirin veya ekleyin:
-
-```python
-# Veri setini otomatik indir
-import os
-if not os.path.exists('real_drug_dataset.csv'):
-    print("📥 Veri seti indiriliyor...")
-    !wget -q https://raw.githubusercontent.com/engindalgiC86-cpu/UU_VMIK_DRUGS/main/real_drug_dataset.csv
-    print("✅ İndirildi!")
-else:
-    print("✅ Veri seti hazır!")
-```
-
-2. Bu hücreyi çalıştırın (Shift+Enter)
-3. Veri seti otomatik olarak indirilecek
-
-### ✅ ADIM 3: Analizi Çalıştır
+####  Seçenek B: Otomatik İndirme (Kaggle Account Gerektirir)
+1.  Analizi Çalıştır
 - **Runtime → Run all** ile tüm analizi çalıştırın
 - Veya her hücreyi tek tek çalıştırın (Shift+Enter)
+- Kaggle account ve şifre bilgisini girin
 
 ---
 
@@ -60,7 +45,7 @@ else:
 Analiz tamamlandıktan sonra proje raporu adıyla çıkacaktır.
 
 
-## 📊 Proje İçeriği
+##  Proje İçeriği
 
 Bu notebook **9 kapsamlı veri madenciliği analizi** içerir:
 
@@ -88,7 +73,7 @@ Bu notebook **9 kapsamlı veri madenciliği analizi** içerir:
 Google Colab yerine kendi bilgisayarınızda çalıştırmak isterseniz:
 
 ```bash
-# Repository'i klonlayın
+# Repository'i klonlayın , yada dosyaları indirin
 git clone https://github.com/engindalgiC86-cpu/UU_VMIK_DRUGS.git
 cd UU_VMIK_DRUGS
 
