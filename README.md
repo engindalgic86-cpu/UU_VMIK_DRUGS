@@ -4,11 +4,20 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Educational-green.svg)]()
 
-Bu proje, ilaçlar ve yan etkileri içeren veri seti üzerinde kapsamlı bir veri madenciliği analizi gerçekleştirmektedir.
+## Veri Madenciliğinde İleri Konular Projesi
+
+**Veri Seti:** İlaçlar ve Yan Etkileri (real_drug_dataset.csv)
+
+Hazırlayan: Mustafa Engin Dalgıç
+Öğrenci No: 254309502
+Program: Bilgisayar Mühendisliği Tezli Yüksek Lisans Programı
+Kurum: Üsküdar Üniversitesi, Fen Bilimleri Enstitüsü
+E-posta: engindalgic86@gmail.com
+Bu projede, ilaçlar ve yan etkileri içeren veri seti üzerinde kapsamlı dokuz aşamalı bir veri madenciliği analizi gerçekleştirlmiştir.Program Çıktılar: Proje raporu(html), 9 görsel(png),1 html çıktısı
 
 ---
 
-## 🚀 Google Colab'da Çalıştırma (3 Kolay Adım)
+## Google Colab'da Çalıştırma 
 
 ### ✅ ADIM 1: Notebook'u Aç
 Yukarıdaki **"Open in Colab"** butonuna tıklayın
@@ -46,25 +55,10 @@ else:
 
 ---
 
-## 📥 HTML Çıktısı Alma
+##  HTML Çıktısı Alma
 
-Analiz tamamlandıktan sonra, notebook'un **en sonuna** yeni bir hücre ekleyin ve şu kodu çalıştırın:
+Analiz tamamlandıktan sonra proje raporu adıyla çıkacaktır.
 
-```python
-# HTML çıktısı oluştur ve indir
-!pip install nbconvert -q
-!jupyter nbconvert --to html *.ipynb --no-input
-
-from google.colab import files
-import glob
-for html in glob.glob('*.html'):
-    print(f"📥 İndiriliyor: {html}")
-    files.download(html)
-    
-print("✅ HTML dosyanız indirildi!")
-```
-
----
 
 ## 📊 Proje İçeriği
 
@@ -82,14 +76,14 @@ Bu notebook **9 kapsamlı veri madenciliği analizi** içerir:
 | 8 | **Yan Etki Analizi** | Baş dönmesi vakalarının detaylı incelemesi |
 | 9 | **İlaç Odaklı Analiz** | Metoprolol için özel yan etki profili |
 
-### 📈 Çıktılar
+###  Çıktılar
 - ✅ **9 Profesyonel Görselleştirme** (PNG formatında)
 - ✅ **İstatistiksel Analizler** ve yorumları
 - ✅ **HTML Rapor** çıktısı
 
 ---
 
-## 💻 Lokal Kurulum (Alternatif)
+##  Lokal Kurulum (Alternatif)
 
 Google Colab yerine kendi bilgisayarınızda çalıştırmak isterseniz:
 
@@ -106,58 +100,7 @@ jupyter notebook veri_madenciligi_projesi.ipynb
 ```
 
 ---
-
-## 📁 Dosya Yapısı
-
-```
-UU_VMIK_DRUGS/
-│
-├── veri_madenciligi_projesi.ipynb    # Ana Jupyter Notebook
-├── real_drug_dataset.csv             # Veri seti (100 KB altında)
-├── README.md                          # Bu dosya
-├── BASLANGIC.md                       # Başlangıç rehberi
-├── HIZLI_BASLANGIC.md                # Hızlı başlangıç kılavuzu
-├── COLAB_HTML_CIKTI_REHBERI.md       # HTML çıktısı rehberi
-├── GITHUB_COLAB_LINK_REHBERI.md      # GitHub-Colab entegrasyonu
-└── (Yardımcı scriptler...)
-```
-
----
-
-## ❓ Sık Karşılaşılan Hatalar ve Çözümleri
-
-### ❌ Hata: "FileNotFoundError: real_drug_dataset.csv"
-
-**Sebep:** Veri seti dosyası yüklenmemiş
-
-**Çözüm:**
-1. Sol menüden 📁 Dosyalar'ı açın
-2. `real_drug_dataset.csv` dosyanızı yükleyin
-3. VEYA yukarıdaki otomatik indirme kodunu çalıştırın
-
-### ❌ Hata: "ModuleNotFoundError: No module named..."
-
-**Sebep:** Gerekli kütüphane yüklü değil
-
-**Çözüm:**
-```python
-!pip install pandas numpy matplotlib seaborn scipy
-```
-
-### ❌ Hata: "KeyError: 'Sütun_Adı'"
-
-**Sebep:** Veri setinizin sütun isimleri farklı
-
-**Çözüm:**
-```python
-# Sütun isimlerini kontrol edin
-print(df.columns.tolist())
-
-# Gerekirse notebook'taki sütun isimlerini güncelleyin
-```
-
----
-
+ 
 ## 🛠️ Gereksinimler
 
 ### Python Kütüphaneleri
@@ -169,18 +112,7 @@ print(df.columns.tolist())
 
 Google Colab'da tüm kütüphaneler **önceden yüklüdür**! ✅
 
----
-
-## 📖 Detaylı Kılavuzlar
-
-- 📘 **[BASLANGIC.md](BASLANGIC.md)** - Genel başlangıç rehberi
-- ⚡ **[HIZLI_BASLANGIC.md](HIZLI_BASLANGIC.md)** - 3 dakikalık hızlı başlangıç
-- 🌐 **[COLAB_HTML_CIKTI_REHBERI.md](COLAB_HTML_CIKTI_REHBERI.md)** - HTML çıktısı alma
-- 🔗 **[GITHUB_COLAB_LINK_REHBERI.md](GITHUB_COLAB_LINK_REHBERI.md)** - GitHub-Colab entegrasyonu
-
----
-
-## 🎯 Öğrenme Hedefleri
+##  Proje Hedefleri
 
 Bu projeyi tamamladığınızda şunları öğreneceksiniz:
 
@@ -193,24 +125,18 @@ Bu projeyi tamamladığınızda şunları öğreneceksiniz:
 
 ---
 
-## 📊 Örnek Çıktılar
+##  Çıktılar
 
 Proje şu tür görselleştirmeler üretir:
 
-- 📊 **Boxplot Grafikleri** - Tedavi sürelerinin dağılımı
+- 📊 **Boxplot Grafikleri** - Süreç dağılımı
 - 🥧 **Pasta Grafikleri** - Kategorik veri oranları
 - 🔥 **Heatmap** - İlaç-yan etki ilişkileri
 - 📈 **Scatter Plot** - Korelasyon analizleri
 - 🌳 **Dendrogram** - Hiyerarşik kümeleme ağacı
 
 ---
-
-## 🤝 Katkıda Bulunma
-
-Bu proje eğitim amaçlıdır. Önerileriniz için issue açabilirsiniz.
-
----
-
+ 
 ## 📝 Lisans
 
 Bu proje eğitim amaçlı hazırlanmıştır.
@@ -218,21 +144,14 @@ Bu proje eğitim amaçlı hazırlanmıştır.
 ---
 
 ## 👨‍💻 Geliştirici
-
+    Mustafa Engin Dalgıç
 - **GitHub:** [@engindalgiC86-cpu](https://github.com/engindalgiC86-cpu)
 - **Repository:** [UU_VMIK_DRUGS](https://github.com/engindalgiC86-cpu/UU_VMIK_DRUGS)
-- **Tarih:** 2024
+- **Tarih:** 30.11.2025
 
 ---
 
-## 🎓 Teşekkürler
+##  Teşekkürler
 
 Bu proje **Veri Madenciliğinde İleri Konular** dersi kapsamında hazırlanmıştır.
-
----
-
-## ⭐ Beğendiyseniz Yıldız Verin!
-
-[![GitHub stars](https://img.shields.io/github/stars/engindalgiC86-cpu/UU_VMIK_DRUGS.svg?style=social&label=Star)](https://github.com/engindalgiC86-cpu/UU_VMIK_DRUGS)
-
-**Projeyi beğendiyseniz ⭐ vermeyi unutmayın!**
+ 
