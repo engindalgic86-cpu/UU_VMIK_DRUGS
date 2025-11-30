@@ -1,4 +1,4 @@
-# 🧬 Veri Madenciliği Projesi - İlaçlar ve Yan Etkiler Analizi
+# Veri Madenciliği Projesi - İlaçlar ve Yan Etkiler Analizi
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/engindalgiC86-cpu/UU_VMIK_DRUGS/blob/main/veri_madenciligi_projesi.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
