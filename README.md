@@ -114,21 +114,21 @@ Bu projeyi tamamladığınızda şunları öğreneceksiniz:
 
 Proje şu tür görselleştirmeler üretir:
 
-- 📊 **Boxplot Grafikleri** - Süreç dağılımı
-- 🥧 **Pasta Grafikleri** - Kategorik veri oranları
-- 🔥 **Heatmap** - İlaç-yan etki ilişkileri
-- 📈 **Scatter Plot** - Korelasyon analizleri
-- 🌳 **Dendrogram** - Hiyerarşik kümeleme ağacı
+-  **Boxplot Grafikleri** - Süreç dağılımı
+-  **Pasta Grafikleri** - Kategorik veri oranları
+-  **Heatmap** - İlaç-yan etki ilişkileri
+-  **Scatter Plot** - Korelasyon analizleri
+-  **Dendrogram** - Hiyerarşik kümeleme ağacı
 
 ---
  
-## 📝 Lisans
+##  Lisans
 
 Bu proje eğitim amaçlı hazırlanmıştır.
 
 ---
 
-## 👨‍💻 Geliştirici
+##  Geliştirici
     Mustafa Engin Dalgıç
 - **GitHub:** [@engindalgiC86-cpu](https://github.com/engindalgiC86-cpu)
 - **Repository:** [UU_VMIK_DRUGS](https://github.com/engindalgiC86-cpu/UU_VMIK_DRUGS)
